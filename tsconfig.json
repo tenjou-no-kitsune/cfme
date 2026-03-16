@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "checkJs": true,
+        "target": "ES2021",
+        "moduleResolution": "Node"
+    },
+    "include": [
+        "./node_modules/bc-stubs/bc/**/*.d.ts",
+        "./src/**/*.js"
+    ]
+}
