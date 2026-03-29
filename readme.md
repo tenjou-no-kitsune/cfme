@@ -13,9 +13,13 @@
 <p align="center">enter a map room with admin access, the editor will open automatically!</p>
 
 <h3 align="center">installation</h1>
+<div align="center"><sup>(pick from whichever git host you prefer)</sup></div>
 
 ```js
+// GitHub
 javascript:(()=>{import("https://tenjou-no-kitsune.github.io/cfme/main.js")})();
+// GitGud
+javascript:(()=>{import("https://tengoku.gitgud.site/cfme/main.js")})();
 ```
 
 <h3 align="center">uninstallation</h3>
