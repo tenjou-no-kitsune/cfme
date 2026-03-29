@@ -1,0 +1,9 @@
+image: busybox
+
+pages:
+  script:
+    - echo "deploying to $CI_PAGES_URL"
+  pages:
+    publish: ./src
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
